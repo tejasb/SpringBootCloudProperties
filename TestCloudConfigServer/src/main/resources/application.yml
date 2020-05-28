@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: <git url e.g https://somerepo@github.com/test.git
+          username: <username>
+          password: <password>
+server:
+  port: ${application.port:9090}
+          

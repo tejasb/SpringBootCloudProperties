@@ -1,0 +1,9 @@
+server:
+  port: ${application.port:9085}
+
+spring:
+  application:
+    name: configuration-client
+  cloud:
+    config:
+      uri: http://localhost:9090
